@@ -1,60 +1,102 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productivity Tiles</title>
+    <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <h1>Productivity Tiles</h1>
+
+    <header>
+      <div id="form-container">
+        <form id="sign-in">
+          <label for="username">Username</label>
+          <input type="text" id="username">
+          <label for="password"></label>
+          <input type="password" id="password">
+        </form>
+      </div>
+    </header>
+    
+    <div class="container">
+      <div class="do-container">
+          <div id="do1"></div>
+
+          <div id="do2"></div>
+
+          <div id="do3"></div>
+
+          <div id="do4"></div>
+      </div>
+
+      <div class="schedule-container">
+        <div id="schedule1"></div>
+
+        <div id="schedule2"></div>
+
+        <div id="schedule3"></div>
+
+        <div id="schedule4"></div>
+      </div>
+
+      <div class="delegate-container">
+        <div id="delegate1"></div>
+
+        <div id="delegate2"></div>
+
+        <div id="delegate3"></div>
+
+        <div id="delegate4"></div>
+      </div>
+
+      <div class="delete-container">
+        <div id="delete1"></div>
+
+        <div id="delete2"></div>
+
+        <div id="delete3"></div>
+
+        <div id="delete4"></div>
+      </div>
+        
+    </div>    
+
+    <style>
+      #div1 {
+        height: 300px;
+        width: 300px;
+        background-color: rgb(149, 159, 220);
+        margin: 0;
+      }
+      #div2 {
+        height: 300px;
+        width: 300px;
+        background-color: rgb(57, 105, 57);
+        position: relative;
+        left: 320px;
+        bottom: 300px;
+      }
+      #div3 {
+        height: 300px;
+        width: 300px;
+        background-color: rgb(221, 103, 101);
+        position: relative;
+        bottom: 280px;
+      }
+      #div4 {
+        height: 300px;
+        width: 300px;
+        background-color: rgb(234, 205, 89);
+        position: relative;
+        left: 320px;
+        bottom: 580px;
+      }
+    </style>
+    
     <script src="script.js"></script>
-    <!DOCTYPE html>
-    <html>
-      <head>
-        <title>Boxes</title>
-        <style>
-          #div1 {
-            height: 300px;
-            width: 300px;
-            background-color: rgb(149, 159, 220);
-            margin: 0;
-          }
-          #div2 {
-            height: 300px;
-            width: 300px;
-            background-color: rgb(57, 105, 57);
-            position: relative;
-            left: 320px;
-            bottom: 300px;
-          }
-          #div3 {
-            height: 300px;
-            width: 300px;
-            background-color: rgb(221, 103, 101);
-            position: relative;
-            bottom: 280px;
-          }
-          #div4 {
-            height: 300px;
-            width: 300px;
-            background-color: rgb(234, 205, 89);
-            position: relative;
-            left: 320px;
-            bottom: 580px;
-          }
-        </style>
-      </head>
-
-      <body>
-        <div id="div1"></div>
-
-        <div id="div2"></div>
-
-        <div id="div3"></div>
-
-        <div id="div4"></div>
-      </body>
-    </html>
-    <link href="style.css"
   </body>
 </html>
