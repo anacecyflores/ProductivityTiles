@@ -11,3 +11,5 @@ fetch("https://quotes15.p.rapidapi.com/quotes/random/", options)
   .then((response) => response.json())
   .then((response) => console.log(response))
   .catch((err) => console.error(err));
+
+fetch(google)
