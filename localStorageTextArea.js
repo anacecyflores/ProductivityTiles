@@ -1,3 +1,6 @@
+var taskButton = document.querySelector(".task-btn");
+let textArea = document.querySelector(".task-block");
+
 $(".task-btn").click(function () {
   //selectedTask is equal to the ID within each task-block class,
   //the right side translates to target the id's within the .task-block
@@ -14,7 +17,7 @@ $(".task-btn").click(function () {
 //targets localStorage stored data from each id "#" and places it back in the .time-block with the matching id
 $("#1").val(localStorage.getItem("1"));
 $("#2").val(localStorage.getItem("2"));
-$("#3").val(localStorage.getItem("329"));
+$("#3").val(localStorage.getItem("3"));
 $("#4").val(localStorage.getItem("4"));
 $("#5").val(localStorage.getItem("5"));
 $("#6").val(localStorage.getItem("6"));
