@@ -54,7 +54,6 @@ h1 {
             text-decoration: none;
             font-weight: bold;
             width: fit-content;
-
 }
 
 .imageDetails {
@@ -80,4 +79,4 @@ h1 {
     font-size: 25px;
 }
 
-</style><body><h1>Random Unsplash Image</h1><div class="imageContainer"><a id="imageLink" href="#"><img alt="" id="unsplashImage" /></a></div><p class="imageDetails">Photo by <a id="creator" href="#">NAME</a>on <a href="https://www.unsplash.com">Unsplash</a> !</p><script></script>
+/* </style><body><h1>Random Unsplash Image</h1><div class="imageContainer"><a id="imageLink" href="#"><img alt="" id="unsplashImage" /></a></div><p class="imageDetails">Photo by <a id="creator" href="#">NAME</a>on <a href="https://www.unsplash.com">Unsplash</a> !</p><script></script> */
