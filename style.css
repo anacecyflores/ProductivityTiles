@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(219, 219, 179);
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#unsplashImage {
+    max-height: 500px;
+    border: 20px solid black;
+    transform: rotate(3deg);
+}
+
+h1 {
+    font-size: 56px;
+}
+
+.imageDetails {
+    background-color: black;
+    margin-top: 50px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    width: fit-content;
+}
+
+.imageDetails a {
+    color: #FFF;
+}
+
+.imageDetails a:hover {
+    color: yellow;
+}
+
+</style><body><h1>Random Unsplash Image</h1><div class="imageContainer"><a id="imageLink" href="#"><img alt="" id="unsplashImage" /></a></div><p class="imageDetails">Photo by <a id="creator" href="#">NAME</a>on <a href="https://www.unsplash.com">Unsplash</a> !</p><script></script>
