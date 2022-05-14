@@ -23,7 +23,7 @@ $("#5").val(localStorage.getItem("5"));
 $("#6").val(localStorage.getItem("6"));
 $("#7").val(localStorage.getItem("7"));
 $("#8").val(localStorage.getItem("8"));
-$("#9").val(localStorage.getItem("8"));
+$("#9").val(localStorage.getItem("9"));
 $("#10").val(localStorage.getItem("10"));
 $("#11").val(localStorage.getItem("11"));
 $("#12").val(localStorage.getItem("12"));
