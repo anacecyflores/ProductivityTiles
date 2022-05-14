@@ -85,4 +85,25 @@ h1 {
     font-size: 25px;
 }
 
+
+/* styling to sort tasks */
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+#sortable li {
+    margin: 0 3px 3px 3px;
+    padding: 30px;
+    padding-left: 1.5em;
+    font-size: 1.4em;
+    height: 18px;
+}
+#sortable li span {
+    position: absolute;
+    margin-left: -1.3em;
+    color: white;
+}
+
 /* </style><body><h1>Random Unsplash Image</h1><div class="imageContainer"><a id="imageLink" href="#"><img alt="" id="unsplashImage" /></a></div><p class="imageDetails">Photo by <a id="creator" href="#">NAME</a>on <a href="https://www.unsplash.com">Unsplash</a> !</p><script></script> */
