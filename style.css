@@ -1,36 +1,29 @@
 body {
-    background-color: rgb(219, 219, 179);
     text-align: center;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
-#unsplashImage {
-    max-height: 500px;
-    border: 20px solid black;
-    transform: rotate(3deg);
-}
 
 h1 {
     font-size: 56px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(246, 248, 238);
+    font-weight: bold;
 }
 
-#photo-container {
-    background-image: img src="imagesApi.js";
-}
 .do-box {
+    font-family: 'Roboto Mono', monospace;
     background-color: rgb(14, 85, 16);
     border: black;
-        margin-top: 50px;
-        padding: 10px;
-        color: rgb(45, 153, 26);
-        text-decoration: none;
-        font-weight: bold;
+     /* margin-top: 50px; */
+    padding: 10px;
+    color: rgb(45, 153, 26);
+        /* text-decoration: none; */
+        /* font-weight: bold; */
         width: fit-content;
+        float: left;
 }
 .schedule-box{
     background-color: rgb(239, 248, 83);
@@ -40,6 +33,7 @@ h1 {
         text-decoration: none;
         font-weight: bold;
         width: fit-content;
+        float: right;
 }
 
 .delegate-box{
@@ -50,6 +44,7 @@ h1 {
         text-decoration: none;
         font-weight: bold;
         width: fit-content;
+        float: left;
 }
 
 .delete-box{
@@ -60,6 +55,7 @@ h1 {
             text-decoration: none;
             font-weight: bold;
             width: fit-content;
+            float: right;
 }
 
 .imageDetails {
@@ -79,31 +75,33 @@ h1 {
 .imageDetails a:hover {
     color: yellow;
 }
-
+/* 
 #quote, #author {
     font-family: 'Courgette', cursive;
     font-size: 25px;
-}
-
+} */
 
 /* styling to sort tasks */
 #sortable {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 40%;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px;
+    column-gap: 5px;
+    row-gap: 5px;
+    content: inherit;
 }
 #sortable li {
     margin: 0 3px 3px 3px;
     padding: 30px;
     padding-left: 1.5em;
+    padding-right: 1.5em;
     font-size: 1.4em;
     height: 18px;
+        content: inherit;
+    /* justify-items: start | end | center | stretch; */
 }
 #sortable li span {
     position: absolute;
     margin-left: -1.3em;
     color: white;
+        content: inherit;
 }
-
-/* </style><body><h1>Random Unsplash Image</h1><div class="imageContainer"><a id="imageLink" href="#"><img alt="" id="unsplashImage" /></a></div><p class="imageDetails">Photo by <a id="creator" href="#">NAME</a>on <a href="https://www.unsplash.com">Unsplash</a> !</p><script></script> */

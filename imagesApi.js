@@ -8,6 +8,10 @@ function renderItem() {
       <img class="beach-image" src="${response.url}" alt="beach image"/>
     `;
     document.body.appendChild(item);
+    document.body.style.backgroundImage =
+      "url('https://source.unsplash.com/1600x900/?beach')";
+    let photo = document.querySelector("#photo");
+    photo.textContent = response.content;
   });
 }
 for (let i = 0; i < numItemsToGenerate; i++) {

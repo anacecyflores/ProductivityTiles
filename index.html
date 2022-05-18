@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Productivity Tiles</title>
 
-    <link rel="stylesheet" href="imagesApi.js" />
+    <!-- <link rel="stylesheet" href="imagesApi.js" /> -->
     <link rel="stylesheet" href="style.css" />
     <!-- google fonts link -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,8 +16,8 @@
       rel="stylesheet"
     />
     <link
-    rel="stylesheet"
-    href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
     />
   </head>
 
@@ -33,186 +33,201 @@
         <p id="author"></p>
       </div>
     </header>
-    
-      <ul id="sortable">
-        <li class="do-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="1"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="1" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
 
-        <li class="do-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="2"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="2" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
-      
-        <li class="do-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="3"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="3" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+    <ul id="sortable">
+      <li class="do-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="1"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="1" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="do-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="4"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="4" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
-    
-        <li class="schedule-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="5"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="5" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="do-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="2"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="2" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="schedule-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="6"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="6" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="do-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="3"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="3" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="schedule-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="7"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="7" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="do-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="4"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="4" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="schedule-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="8"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="8" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="schedule-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="5"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="5" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="delegate-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="9"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="9" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="schedule-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="6"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="6" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="delegate-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="10"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="10" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="schedule-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="7"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="7" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="delegate-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="11"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="11" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="schedule-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="8"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="8" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="delegate-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="12"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="12" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
-      
+      <li class="delegate-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="9"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="9" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="delete-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="13"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="13" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="delegate-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="10"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="10" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="delete-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="14"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="14" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="delegate-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="11"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="11" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="delete-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="15"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="15" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
+      <li class="delegate-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="12"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="12" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
 
-        <li class="delete-box">
-          <span class="ui-icon ui-icon-arrowthick-2-n-s"></span><textarea
-              name="task"
-              placeholder="Enter Task Here"
-              id="16"
-              class="task-block"
-            ></textarea>
-            <input type="date" id="16" class="date-inputs" />
-            <button type="submit" class="task-btn">Add Task</button>
-        </li>
-      </ul>
-    
+      <li class="delete-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="13"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="13" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
+
+      <li class="delete-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="14"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="14" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
+
+      <li class="delete-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="15"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="15" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
+
+      <li class="delete-box">
+        <span class="ui-icon ui-icon-arrowthick-2-n-s"></span
+        ><textarea
+          name="task"
+          placeholder="Enter Task Here"
+          id="16"
+          class="task-block"
+        ></textarea>
+        <input type="date" id="16" class="date-inputs" />
+        <button type="submit" class="task-btn">Add Task</button>
+      </li>
+    </ul>
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="localStorageTextArea.js"></script>
