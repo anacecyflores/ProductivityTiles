@@ -18,44 +18,60 @@ h1 {
     font-weight: bold;
 }
 
+.task-lists-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+}
+
+.do {
+    width: 22.5%;
+    height: 135px;
+}
+.schedule {
+    width: 22.5%;
+    height: 135px;
+}
+.delegate {
+    width: 22.5%;
+    height: 135px;
+}
+.delete {
+    width: 22.5%;
+    height: 135px;
+}
+
 .do-box {
     font-family: 'Roboto Mono', monospace;
-    background-color: rgb(14, 85, 16);opacity: 0.8;
-    border: black;
-    flex: content;
-    padding: 10px;
-        width: fit-content;
-        float: left;
+    background-color: rgb(14, 85, 16);opacity: 0.9;
+        border: black;
+        padding: 10px;
+        border-radius: 5%;
 }
 .schedule-box{
-    background-color: rgb(239, 248, 83);opacity: 0.8;
-        margin-top: 50px;
+    background-color: rgb(239, 248, 83);opacity: 0.9;
         padding: 10px;
         text-decoration: none;
         font-weight: bold;
-        width: fit-content;
-        float: right;
+        border-radius: 5%;
 }
 
 .delegate-box{
-    background-color: rgb(27, 48, 158);opacity: 0.8;
-        margin-top: 50px;
+    background-color: rgb(27, 48, 158);opacity: 0.9;
         padding: 10px;
         color: rgb(56, 31, 247);
         text-decoration: none;
         font-weight: bold;
-        width: fit-content;
-        float: left;
+        border-radius: 5%;
+       
 }
-
 .delete-box{
-        background-color: rgb(222, 48, 48);opacity: 0.8;
-            margin-top: 50px;
+        background-color: rgb(222, 48, 48);opacity: 0.9;
             padding: 10px;
             text-decoration: none;
             font-weight: bold;
-            width: fit-content;
-            float: right;
+            border-radius: 5%;
 }
 
 .imageDetails {
@@ -99,3 +115,12 @@ h1 {
     color: white;
         content: inherit;
 }
+
+
+
+.task-block {
+    margin-top: 10px;
+    height: 75px;
+    resize: none;
+}
+
