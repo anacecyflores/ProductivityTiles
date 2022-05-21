@@ -24,4 +24,4 @@ THEN the user is given an inspiration quote to forge on and finish their tasks
 
 [Github Pages](https://anacecyflores1.github.io/ProductivityTiles/)
 
-[Screenshot of deployed app](screenshot.jpg)
+![Screenshot of deployed app](screenshot.jpg)
