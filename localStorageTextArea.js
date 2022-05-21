@@ -20,7 +20,7 @@ $(".task-btn").click(function () {
   }
 
   localStorage.setItem(selectedTask, JSON.stringify(obj));
-  let itemRecalled = JSON.parse(localStorage.getItem(selectedTask));
+  let itemRecalled = JSON.parse(localStorage.getItem(selectedTask)) || "";
   // need to stringify the info 
   console.log(selectedTask);
   console.log(content);

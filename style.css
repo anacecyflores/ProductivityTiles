@@ -16,8 +16,14 @@ header{
 h1 {
     font-size: 56px;
     font-weight: bold;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
+#quote{
+    padding-left: 30px;
+    padding-right: 30px;
+}
 .task-lists-container {
     display: flex;
     flex-direction: row;
@@ -45,33 +51,33 @@ h1 {
 .do-box {
     font-family: 'Roboto Mono', monospace;
     background-color: rgb(14, 85, 16);opacity: 0.9;
-        border: black;
-        padding: 10px;
-        border-radius: 5%;
+    border: black;
+    padding: 10px;
+    border-radius: 5%;
 }
 .schedule-box{
     background-color: rgb(239, 248, 83);opacity: 0.9;
-        padding: 10px;
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 5%;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
 }
 
 .delegate-box{
     background-color: rgb(27, 48, 158);opacity: 0.9;
-        padding: 10px;
-        color: rgb(56, 31, 247);
-        text-decoration: none;
-        font-weight: bold;
-        border-radius: 5%;
+    padding: 10px;
+    color: rgb(56, 31, 247);
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
        
 }
 .delete-box{
-        background-color: rgb(222, 48, 48);opacity: 0.9;
-            padding: 10px;
-            text-decoration: none;
-            font-weight: bold;
-            border-radius: 5%;
+    background-color: rgb(222, 48, 48);opacity: 0.9;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5%;
 }
 
 .imageDetails {
@@ -84,13 +90,6 @@ h1 {
     width: fit-content;
 }
 
-.imageDetails a {
-    color: #FFF;
-}
-
-.imageDetails a:hover {
-    color: yellow;
-}
 
 #sortable {
     grid-template-columns: 10px 10px 10px;
