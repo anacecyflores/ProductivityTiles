@@ -28,6 +28,11 @@ $(".task-btn").click(function () {
   console.log(itemRecalled);
 });
 
+$(function () {
+  $('#sortable').sortable();
+  $('#sortable').disableSelection();
+});
+
 //targets localStorage stored data from each id "#" and places it back in the .time-block with the matching id
 $("#1-text").val(JSON.parse(localStorage.getItem("1-text")).task);
 $("#1-date").val(JSON.parse(localStorage.getItem("1-text")).date);
@@ -66,7 +71,3 @@ $("#16-date").val(JSON.parse(localStorage.getItem("16-text")).date);
 
 // console.log(itemRecalled.date); //should show the date
 
-$(function () {
-  $('#sortable').sortable();
-  $('#sortable').disableSelection();
-});
