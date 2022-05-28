@@ -20,12 +20,17 @@ $(".task-btn").click(function () {
   }
 
   localStorage.setItem(selectedTask, JSON.stringify(obj));
-  let itemRecalled = JSON.parse(localStorage.getItem(selectedTask));
+  let itemRecalled = JSON.parse(localStorage.getItem(selectedTask)) || "";
   // need to stringify the info 
   console.log(selectedTask);
   console.log(content);
   console.log(dateContent);
   console.log(itemRecalled);
+});
+
+$(function () {
+  $('#sortable').sortable();
+  $('#sortable').disableSelection();
 });
 
 //targets localStorage stored data from each id "#" and places it back in the .time-block with the matching id
@@ -66,7 +71,3 @@ $("#16-date").val(JSON.parse(localStorage.getItem("16-text")).date);
 
 // console.log(itemRecalled.date); //should show the date
 
-$(function () {
-  $('#sortable').sortable();
-  $('#sortable').disableSelection();
-});

@@ -33,6 +33,7 @@ THEN the user is given an inspiration quote to forge on and finish their tasks
 
 [Github Pages](https://anacecyflores1.github.io/ProductivityTiles/)
 
+<<<<<<< HEAD
 ### Collaborators
 
 Tom Lee : t.k.hobbes43@gmail.com
@@ -44,3 +45,6 @@ Ana C. Flores: anacecyflores1@gmail.com
 We used Google Fonts for a better UI Design using a legible font.
 UnSplash API provided the background images for a relaxing assortment.
 QuotesAPi for Rapid API provided a variety of inspirational quotes that refresh when the user refreshes the page.
+=======
+![Screenshot of deployed app](screenshot.jpg)
+>>>>>>> d0f65bac6d39e9bd15e06391e257cfaa0d65c803
