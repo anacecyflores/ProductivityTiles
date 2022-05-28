@@ -40,10 +40,11 @@ Cristian Vargas: cristian.v0223@gmail.com
 Luka Eric: lukaericba@gmail.com
 Ana C. Flores: anacecyflores1@gmail.com
 
-###Technologies used
+###Technologies Used
+
 We used Google Fonts for a better UI Design using a legible font.
 UnSplash API provided the background images for a relaxing assortment.
 QuotesAPi for Rapid API provided a variety of inspirational quotes that refresh when the user refreshes the page.
 =======
 ![Screenshot of deployed app](screenshot.jpg)
->>>>>>> d0f65bac6d39e9bd15e06391e257cfaa0d65c803
+<img width="1258" alt="Screen Shot 2022-05-28 at 2 16 51 PM" src="https://user-images.githubusercontent.com/95557040/170839823-a221c98d-7d00-45e9-a24c-389eb0d17d3f.png">
