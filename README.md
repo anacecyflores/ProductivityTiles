@@ -35,10 +35,18 @@ THEN the user is given an inspiration quote to forge on and finish their tasks
 
 ### Collaborators
 
-Tom Lee : t.k.hobbes43@gmail.com
-Cristian Vargas: cristian.v0223@gmail.com
-Luka Eric: lukaericba@gmail.com
 Ana C. Flores: anacecyflores1@gmail.com
+
+Tom Lee : t.k.hobbes43@gmail.com
+
+Cristian Vargas: cristian.v0223@gmail.com
+
+Luka Eric: lukaericba@gmail.com
+
+#### License
+
+![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)
+https://choosealicense.com/licenses/mit/
 
 ###Technologies Used
 
